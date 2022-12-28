@@ -31,5 +31,6 @@ dependencies { // 프로젝트 개발에 필요한 의존성 선언
     compile('org.projectlombok:lombok') // lombok: 반복되는 메소드를 Annotation을 사용해서 자동으로 작성해주는 라이브러리
     compile('org.springframework.boot:spring-boot-starter-data-jpa') // 스프링 부트용 Spring Data Jap 추상화 라이브러리
     compile('com.h2database:h2') // h2: 인메모리 관계형 DB
+    compile('org.springframework.boot:spring-boot-starter-mustache') // mustache: 템플릿 엔진
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
